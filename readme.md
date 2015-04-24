@@ -7,7 +7,7 @@ Sass itu sebuah css preprocessor. Preprocessor sendiri adalah sebuah compiler. J
 Sass ada lebih dulu, memiliki banyak komunitas, dan lebih fleksibel untuk project yang kompleks.
 
 * Bagaimana cara menggunakan Sass?
-Langkah pertama adalah menginstalnya lebih dulu di komputer. Bisa dilihat di sass-lang.com. Gunakan versi Nodejs jangan gunakan versi Ruby. Kenapa versi Nodejs, karena nanti kita akan banyak menggunakan tools dari Nodejs.
+Langkah pertama adalah menginstalnya lebih dulu di komputer. Bisa dilihat di [sass-lang.com](http://sass-lang.com). Gunakan versi Nodejs jangan gunakan versi Ruby. Kenapa versi Nodejs, karena nanti kita akan banyak menggunakan tools dari Nodejs.
 
 ## Instal Sass
 
@@ -73,6 +73,8 @@ _partial.scss
 ```
 .entry-title { font-size:  $base-font-size * 2;}
 ```
+
+Untuk dokumentasi bisa dilihat [disini](http://www.sass-lang.com/documentation/file.SASS_REFERENCE.html).
 
 ## Kompilasi Sass
 
