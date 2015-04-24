@@ -1,0 +1,13 @@
+// main.scss
+
+// Include module
+@import 'reset';
+
+// Base variable
+$base-bg: #fff;
+
+// your code starts here
+
+body {
+	background: $base-bg;
+}
