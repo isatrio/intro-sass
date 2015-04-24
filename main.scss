@@ -6,8 +6,41 @@
 // Base variable
 $base-bg: #fff;
 
+// Base name color
+$black: #000;
+$dark-grey: lighten($black, 20%);
+$grey: lighten($black, 40%);
+
+// Base variables
+$base-width: 400px;
+$base-font-size: 1em;
+$base-font-color: $dark-grey;
+$secondary-font-color: $grey;
+
+// Mixin
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box($width, $height) {
+	width: $width;
+	height: $height;
+}
+
 // your code starts here
 
 body {
 	background: $base-bg;
 }
+
+.box {
+	background: tomato;
+	h1 { color: $black;}
+	p { color: $grey;}
+}
+
+.box { @include border-radius(5px); padding: 10px; @include box(150px, 100px); }
+
